@@ -1,0 +1,4 @@
+<h1>Result</h1>
+<p><%= @end_time - @start_time %></p>
+<p><%= "Sorry but #{@answer.upcase} can't be build out of #{@game_array.join(', ').upcase}" %></p>
+<%= link_to "play again", new_path %>,
